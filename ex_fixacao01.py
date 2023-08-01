@@ -1,12 +1,15 @@
-import math
+#Input
 
-conv = int(input("Insira um número"))
+conv = int(input("Informe um valor em Dolar " ))
+
+#Cálculos
 
 dol = 4.78
-conversao = math.ceil(conv * 4.78)
 
-print("O valor do real é", conversao)
 
+#Prints
+
+print("O valor em Real é R$%.2f: " %(conv * dol))
 
 
 
